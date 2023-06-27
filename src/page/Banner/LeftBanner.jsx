@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const LeftBanner = () => {
@@ -22,9 +22,12 @@ const LeftBanner = () => {
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="#ff014f"
+            cursorColor="text-[#ff014f]"
           />
         </h2>
+      </div>
+      <div className="mt-4">
+        <button className="btn btn-secondary">Resume</button>
       </div>
     </div>
   );

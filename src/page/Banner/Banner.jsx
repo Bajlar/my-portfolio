@@ -4,13 +4,13 @@ import RightBanner from "./RightBanner";
 
 const Banner = () => {
   return (
-    <div
+    <section
       id="home"
-      className="my-12 px-6 md:px-24 grid md:grid-cols-2 gap-6 justify-between items-center"
+      className="my-4 px-6 bg-white h-[500px] md:px-24 grid md:grid-cols-2 gap-6 justify-between items-center"
     >
       <LeftBanner />
       <RightBanner />
-    </div>
+    </section>
   );
 };
 
