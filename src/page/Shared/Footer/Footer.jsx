@@ -7,12 +7,14 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div>
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h4 class="text-2xl font-bold mb-4">Connect with Me</h4>
+            <h4 className="text-2xl font-bold mb-4">Connect with Me</h4>
             <div className="flex justify-center items-center gap-4">
               <div>
                 <a
@@ -49,7 +51,9 @@ const Footer = () => {
             <hr className="border-gray-700 w-10/12" />
           </div>
           <div className="flex justify-center mt-4">
-            <p className="text-gray-300">© 2023 Bajlar. All rights reserved.</p>
+            <p className="text-gray-300">
+              © {currentYear} Bajlar. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
