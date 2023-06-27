@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full bg-base-100 h-20 shadow-2xl">
+    <div className="w-full sticky top-0 z-10 bg-base-100 h-20 shadow-2xl cursor-pointer">
       <div className="relative flex items-center justify-between py-5 mx-auto px-4 lg:px-8">
         <div className="flex items-center">
           <img className="h-12 rounded-full" src={logo} alt="logo" />
@@ -15,8 +15,8 @@ const Navbar = () => {
         </div>
         <ul className="items-center hidden space-x-8 md:flex">
           {navLinksData.map(({ _id, title, link }) => (
-            <li className="font-bold">
-              <a herf="/">{title}</a>
+            <li key={_id} className="font-bold">
+              <a herf={`#${link}`}>{title}</a>
             </li>
           ))}
         </ul>
@@ -58,8 +58,9 @@ const Navbar = () => {
                       <li
                         onClick={() => setIsMenuOpen(false)}
                         className="font-bold"
+                        key={_id}
                       >
-                        <a herf="/">{title}</a>
+                        <a herf={`#${link}`}>{title}</a>
                       </li>
                     ))}
                   </ul>
