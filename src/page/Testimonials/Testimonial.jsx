@@ -1,6 +1,7 @@
 import React from "react";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
+import { FaQuoteLeft } from "react-icons/fa";
 
 const Testimonial = ({ review }) => {
   // console.log(review);
@@ -8,14 +9,17 @@ const Testimonial = ({ review }) => {
 
   return (
     <div className="card bg-base-100 shadow-xl mt-4">
-      <div className="avatar flex justify-center items-center">
-        <div className="w-24 rounded-full">
-          <img src={image} />
-        </div>
-      </div>
       <div className="card-body items-center text-center">
-        <h2 className="card-title">{name}</h2>
+        <FaQuoteLeft className="text-2xl text-yellow-500" />
         <p>{details}</p>
+        <div className="w-[30px] border-b-4 text-gray-400"></div>
+        <div className="avatar flex justify-center items-center mt-2">
+          <div className="w-20 rounded-full">
+            <img src={image} />
+          </div>
+        </div>
+        <h2 className="card-title">{name}</h2>
+
         <Rating style={{ maxWidth: 160 }} value={rating} readOnly />
       </div>
     </div>

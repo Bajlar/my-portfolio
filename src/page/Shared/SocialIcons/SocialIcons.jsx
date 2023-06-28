@@ -10,7 +10,7 @@ const SocialIcons = () => {
         <li className="text-white w-[170px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-1px] duration-300 bg-rose-600 rounded-tr-md">
           <a
             className="flex justify-between items-center w-full text-white px-5"
-            href="https://drive.google.com/file/d/15zZ0ld6XR8hNHigrbORrBH1WHt7owIpz/view?usp=sharing"
+            href="https://drive.google.com/file/d/1o7ttSF-rRp7jHedq8MN9uLHRAn9G42VS/view?usp=sharing"
             target="_blank"
           >
             Resume <BsFillPersonLinesFill size={24} />

@@ -3,21 +3,21 @@
     "_id": "6430110af5a7e52ce1e8fa67",
     "name": "John Doe",
     "image": "https://i.ibb.co/LPPFGkv/man-1.jpg",
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "details": "Bajlar was responsive and patient throughout the project. He completed the work in a timely manner and the final result was fantastic, highly recommended.",
     "rating": 5
   },
   {
     "_id": "64301123f5a7e52ce1e8fa68",
     "name": "Sarah Smith",
     "image": "https://i.ibb.co/2W7tNsk/man-2.jpg",
-    "details": "I found the product to be incredibly useful and easy to use. The interface is intuitive, and it has all the features I need. Highly recommend it!",
-    "rating": 4
+    "details": "Bajlar is an absolute 10/10. He took fantastic initiative the whole way through. Very communicative and proactive in helping us get the best possible product built. Will be returning.",
+    "rating": 5
   },
   {
     "_id": "6430113af5a7e52ce1e8fa69",
     "name": "Robert Johnson",
     "image": "https://i.ibb.co/MMC69S7/man-3.jpg",
-    "details": "This is by far the best service I have ever used. The customer support is outstanding, and the product itself is top-notch. I couldn't be happier!",
-    "rating": 5
+    "details": "This guy is a professional, he prepared the frontend of our website in just a few days. The result has been amazing. We will repeat for sure. Thanks again man!",
+    "rating": 4
   }
 ]

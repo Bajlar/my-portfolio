@@ -1,5 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import resume from "../../assets/file/resume.pdf";
+import SocialLink from "./SocialLink";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -26,8 +28,15 @@ const LeftBanner = () => {
           />
         </h2>
       </div>
-      <div className="mt-4">
-        <button className="btn btn-secondary">Resume</button>
+      <div className="flex items-center flex-6">
+        <div className="mt-4 mr-4">
+          <a href={resume} download className="btn btn-secondary">
+            Resume
+          </a>
+        </div>
+        <div>
+          <SocialLink />
+        </div>
       </div>
     </div>
   );
