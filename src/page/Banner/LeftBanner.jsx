@@ -18,7 +18,7 @@ const LeftBanner = () => {
           Hi, I'm <span className="text-[#ff014f]">Bajlar Rahman</span>
         </h1>
         <h2 className="text-2xl font-bold">
-          I'm <span className="text-red-500">{text}</span>
+          a <span className="text-red-500">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
