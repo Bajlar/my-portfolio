@@ -7,7 +7,7 @@ const Banner = () => {
     <>
       <section
         id="home"
-        className="my-4 px-4 bg-white h-[500px] md:px-24 grid md:grid-cols-2 gap-10 justify-between items-center"
+        className="py-8 px-4 bg-white md:h-[500px] md:px-28 grid md:grid-cols-2 gap-4 md:gap-10 justify-center items-center"
       >
         <LeftBanner />
         <RightBanner />

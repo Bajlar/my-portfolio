@@ -2,6 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import resume from "../../assets/file/resume.pdf";
 import SocialLink from "./SocialLink";
+import { FaDownload } from "react-icons/fa";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -13,28 +14,34 @@ const LeftBanner = () => {
   });
 
   return (
-    <div className="order-2 md:order-1">
-      <div className="flex flex-col">
-        <h2 className="text-lg font-semibold uppercase">Welcome to my World</h2>
-        <h1 className="text-3xl md:text-5xl font-bold">
-          Hi, I'm <span className="text-[#ff014f]">Bajlar Rahman</span>
+    <div className="order-2 md:order-1 flex flex-col">
+      <div>
+        <h2 className="text-2xl font-bold mb-3 leading-6">
+          Welcome to my World
+        </h2>
+        <h1 className="text-3xl md:text-6xl font-bold">
+          Hi, <span className="text-primary">I'm Bajlar</span>
         </h1>
-        <h2 className="text-2xl font-bold">
-          a <span className="text-red-500">{text}</span>
+        <h2 className="text-3xl mt-3 font-bold">
+          a <span className="text-rose-600">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="text-[#ff014f]"
+            cursorColor="#D81B60"
           />
         </h2>
       </div>
-      <div className="flex items-center flex-6">
-        <div className="mt-4 mr-4">
-          <a href={resume} download className="btn btn-secondary">
-            Resume
+      <div className="flex items-center flex-6 mt-4">
+        <div className="md:mt-14 mr-4">
+          <a
+            href={resume}
+            download
+            className="btn bg-primary hover:bg-secondary text-white capitalize rounded-3xl"
+          >
+            Download Resume <FaDownload className="text-lg" />
           </a>
         </div>
-        <div>
+        <div className="md:-mb-14">
           <SocialLink />
         </div>
       </div>

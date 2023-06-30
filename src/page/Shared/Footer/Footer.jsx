@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className="bg-gray-900 text-white py-8">
+      <footer className="bg-[#11141D] text-white py-8">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h4 className="text-2xl font-bold mb-4">Connect with Me</h4>

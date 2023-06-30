@@ -4,11 +4,10 @@ import "@smastrom/react-rating/style.css";
 import { FaQuoteLeft } from "react-icons/fa";
 
 const Testimonial = ({ review }) => {
-  // console.log(review);
   const { name, image, details, rating } = review;
 
   return (
-    <div className="card bg-base-100 shadow-xl mt-4">
+    <div className="card bg-base-100 shadow-md mt-4">
       <div className="card-body items-center text-center">
         <FaQuoteLeft className="text-2xl text-yellow-500" />
         <p>{details}</p>

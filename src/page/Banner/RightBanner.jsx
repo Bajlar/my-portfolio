@@ -1,22 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Lottie from "lottie-react";
-
-// import banner from "../../assets/images/banner/banner.jpg";
+import banner from "../../assets/banner.json";
 
 const RightBanner = () => {
-  const [banner, setBanner] = useState('');
-  useEffect(() => {
-    fetch("banner.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setBanner(data);
-      });
-  }, []);
   return (
     <div className="order-1 md:order-2">
-      <div className="flex items-center">
-        {/* <img src={banner} alt="bannerImg" className="w-full" /> */}
-        <Lottie animationData={banner} className="h-[350px]" />
+      <div className="flex text-end items-center">
+        <Lottie animationData={banner} className="w-full h-[400px]" />
       </div>
     </div>
   );

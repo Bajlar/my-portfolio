@@ -5,7 +5,10 @@ import RightAbout from "./RightAbout";
 const About = () => {
   return (
     <>
-      <section className="my-4 px-4 bg-[#faf6f6] md:h-[500px] py-4 md:px-24 grid md:grid-cols-2 gap-10 justify-between items-center">
+      <section
+        id="about"
+        className="py-8 px-4 md:h-[500px] bg-[#faf6f6] md:px-28 grid md:grid-cols-2 gap-10 justify-center items-center"
+      >
         <LeftAbout />
         <RightAbout />
       </section>

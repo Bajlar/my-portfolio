@@ -4,10 +4,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const SocialLink = () => {
   return (
-    <div className="flex gap-4 -mb-4">
+    <div className="flex items-center gap-4">
       <div>
         <a href="https://github.com/Bajlar" target="_blank">
-          <FaGithub className="text-5xl" />
+          <div className="avatar placeholder">
+            <div className="bg-[#cda9f3] hover:bg-secondary text-neutral-content rounded-full w-10">
+              <FaGithub className="text-2xl text-primary " />
+            </div>
+          </div>
         </a>
       </div>
       <div>
@@ -15,7 +19,11 @@ const SocialLink = () => {
           href="https://www.linkedin.com/in/bajlar-rahman-484503280"
           target="_blank"
         >
-          <FaLinkedinIn className="text-5xl" />
+          <div className="avatar placeholder">
+            <div className="bg-[#cda9f3] hover:bg-secondary text-neutral-content rounded-full w-10">
+              <FaLinkedinIn className="text-2xl text-primary" />
+            </div>
+          </div>
         </a>
       </div>
     </div>

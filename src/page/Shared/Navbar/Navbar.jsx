@@ -1,29 +1,28 @@
 import React, { useState } from "react";
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { navLinksData } from "./../../../constants/index";
-import logo from "../../../assets/images/logo/logo.jpg";
-// import SocialIcons from "../SocialIcons/SocialIcons";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <>
-      <div className="w-full sticky top-0 z-10 bg-base-100 h-20 shadow-xl cursor-pointer">
-        <div className="relative flex items-center justify-between py-5 mx-auto px-4 lg:px-10">
+      <div className="w-full sticky top-0 z-10 bg-base-100 h-20 shadow-md font-medium cursor-pointer">
+        <div className="relative flex items-center justify-between py-5 mx-auto px-4 md:px-28">
           <div className="flex items-center">
-            <img className="h-12 rounded-full" src={logo} alt="logo" />
-            <h3 className="text-2xl font-bold uppercase ml-3">Bajlar</h3>
+            <h3 className="text-2xl font-bold hover:text-primary uppercase">
+              Bajlar
+            </h3>
           </div>
           <ul className="items-center hidden space-x-8 md:flex">
             {navLinksData.map(({ _id, title, link }) => (
-              <li key={_id} className="font-bold">
+              <li key={_id} className="">
                 <a href={`#${link}`}>{title}</a>
               </li>
             ))}
           </ul>
           {/* Mobile Navbar */}
-          <div className="lg:hidden">
+          <div className="md:hidden">
             {/* Dropdown Open Button */}
             <button
               aria-label="Open Menu"
@@ -38,9 +37,7 @@ const Navbar = () => {
                   <div className="flex items-center justify-between mb-4">
                     {/* Logo & Button section */}
                     <div>
-                      <h3 className="text-2xl font-bold uppercase">
-                        Bajlar
-                      </h3>
+                      <h3 className="text-2xl font-bold uppercase">Bajlar</h3>
                     </div>
                     {/* Dropdown menu close button */}
                     <div>
@@ -59,7 +56,7 @@ const Navbar = () => {
                       {navLinksData.map(({ _id, title, link }) => (
                         <li
                           onClick={() => setIsMenuOpen(false)}
-                          className="font-bold"
+                          className=""
                           key={_id}
                         >
                           <a href={`#${link}`}>{title}</a>
@@ -73,7 +70,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* <SocialIcons /> */}
     </>
   );
 };

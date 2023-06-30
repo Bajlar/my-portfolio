@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Testimonial from './Testimonial';
+import SectionTitle from '../../components/SectionTitle';
 
 const Testimonials = () => {
   const [reviews, setReviews] = useState([]);
@@ -16,11 +17,9 @@ const Testimonials = () => {
     <>
       <section
         id="testimonials"
-        className="my-4 px-6 md:h-[500px] bg-white md:px-24"
+        className="py-8 px-4 bg-white md:px-28"
       >
-        <h2 className="text-3xl my-8 uppercase text-center text-[#ff014f] font-bold">
-          Testimonials
-        </h2>
+        <SectionTitle heading={"Testimonials"} />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {reviews.map((review) => (
             <Testimonial review={review} key={review._id}></Testimonial>
