@@ -8,7 +8,7 @@ const Testimonial = ({ review }) => {
 
   return (
     <div className="card bg-base-100 shadow-md mt-4">
-      <div className="card-body bg-[#faf6f6] items-center text-center">
+      <div className="card-body bg-[#faf6f6] items-center text-center rounded-2xl">
         <FaQuoteLeft className="text-2xl text-yellow-500" />
         <p>{details}</p>
         <div className="w-[30px] border-b-4 text-gray-400"></div>
@@ -18,7 +18,6 @@ const Testimonial = ({ review }) => {
           </div>
         </div>
         <h2 className="card-title">{name}</h2>
-
         <Rating style={{ maxWidth: 160 }} value={rating} readOnly />
       </div>
     </div>
