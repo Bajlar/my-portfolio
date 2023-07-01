@@ -1,12 +1,12 @@
 import React from "react";
 
-const SectionTitle = ({ heading }) => {
+const SectionTitle = ({ heading}) => {
   return (
-    <div className="pb-5">
-      <p className="text-3xl uppercase text-center text-primary font-bold">
+    <div className="mb-5">
+      <p className="text-3xl uppercase text-center text-primary font-bold pb-2">
         {heading}
       </p>
-      <div className="w-2/3 mx-auto border-b-4"></div>
+      <div className="w-[300px] mx-auto border-b-4"></div>
     </div>
   );
 };

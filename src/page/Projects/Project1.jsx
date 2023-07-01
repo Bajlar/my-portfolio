@@ -10,10 +10,10 @@ const Project1 = () => {
         <div className="box w-[350px] h-[250px] mx-auto md:w-[550px] md:h-[400px] bg-black bg-project1 bg-top hover:bg-bottom bg-cover rounded-lg"></div>
         <div>
           <div className="text-center">
-            <h3 className="text-2xl text-primary font-semibold">
+            <h3 className="text-2xl text-primary font-semibold pb-2">
               Justice Solutions
             </h3>
-            <div className="w-2/3 mx-auto border-b-4"></div>
+            <div className="w-[300px] mx-auto border-b-4"></div>
             <p className="my-3 w-full px-4">
               Justice Solutions is a comprehensive website offering a wide range
               of resources and services related to the field of justice and law.

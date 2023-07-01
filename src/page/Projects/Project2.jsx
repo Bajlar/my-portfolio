@@ -9,8 +9,10 @@ const Project2 = () => {
       <div className="grid md:grid-cols-2 gap-4 md:gap-10 justify-center items-center">
         <div className="order-2 md:order-1">
           <div className="text-center">
-            <h3 className="text-2xl text-primary font-semibold">Bistro Boss</h3>
-            <div className="w-2/3 mx-auto border-b-4"></div>
+            <h3 className="text-2xl text-primary font-semibold pb-2">
+              Bistro Boss
+            </h3>
+            <div className="w-[300px] mx-auto border-b-4"></div>
             <p className="my-3 w-full px-4">
               Bistro Boss Restaurant's website is a captivating portal to a
               world of culinary excellence. With its visually stunning design

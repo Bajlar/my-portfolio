@@ -27,6 +27,8 @@
 - @react-router-dom
 - @react-simple-typewriter
 - @sort-by
+- @sort-by
+- @sweetalert2
 
 ## Site link:
 

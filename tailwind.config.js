@@ -11,8 +11,8 @@ export default {
         project3: "url(https://i.ibb.co/F6BkSz5/toy-street-ac102-web-app.png)",
       },
       colors: {
-        primary: "#8b27e6",
-        secondary: "#D81B60",
+        primary: "#8a27e6d3",
+        secondary: "#d81b60d8",
       },
     },
   },

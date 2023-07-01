@@ -10,12 +10,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 .box {
   transition: ease-in-out 4s;
   cursor: cell;
 }
 
 * {
-  /* border: 1px solid red; */
+  /* border: 1px solid rgb(226, 43, 171); */
 }

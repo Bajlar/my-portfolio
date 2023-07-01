@@ -6,14 +6,19 @@ import SectionTitle from "../../components/SectionTitle";
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-[#faf6f6] py-8">
-      <div className="mb-6 px-4">
+    <>
+      <section id="" className="bg-[#faf6f6] py-12">
         <SectionTitle heading={"Projects"} />
-      </div>
-      <Project1 />
-      <Project2 />
-      <Project3 />
-    </section>
+        <div className="mt-10">
+          <Project1 />
+          <Project2 />
+          <Project3 />
+        </div>
+      </section>
+      <p id="testimonials" className="text-transparent pb-[54px] bg-[#faf6f6]">
+        hidden
+      </p>
+    </>
   );
 };
 
