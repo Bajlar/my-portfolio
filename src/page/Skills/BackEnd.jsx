@@ -4,7 +4,7 @@ import { backEndData } from './../../constants/backEndData';
 const BackEnd = () => {
   return (
     <div>
-      <h3 className="text-center text-secondary mb-4 text-2xl font-medium mt-10 md:mt-0">
+      <h3 className="text-center text-secondary mb-5 text-2xl font-medium mt-5 md:mt-0">
         Backend Development
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

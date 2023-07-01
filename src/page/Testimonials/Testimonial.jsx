@@ -7,7 +7,12 @@ const Testimonial = ({ review }) => {
   const { name, image, details, rating } = review;
 
   return (
-    <div className="card bg-base-100 shadow-md mt-4">
+    <div
+      data-aos="zoom-in"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+      className="card bg-base-100 shadow-md mt-4"
+    >
       <div className="card-body items-center text-center">
         <FaQuoteLeft className="text-2xl text-yellow-500" />
         <p>{details}</p>

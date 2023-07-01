@@ -19,15 +19,15 @@ const LeftBanner = () => {
         <h2 className="text-2xl font-bold mb-3 leading-6">
           Welcome to my World
         </h2>
-        <h1 className="text-3xl md:text-6xl font-bold">
+        <h1 className="text-4xl md:text-6xl font-bold">
           Hi, <span className="text-primary">I'm Bajlar</span>
         </h1>
         <h2 className="text-3xl mt-3 font-bold">
-          a <span className="text-rose-600">{text}</span>
+          a <span className="text-secondary">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="#D81B60"
+            cursorColor="#d81b60d8"
           />
         </h2>
       </div>

@@ -1,5 +1,4 @@
 import React from "react";
-
 import ContactImg from "./ContactImg";
 import ContactFrom from "./ContactFrom";
 import SectionTitle from "../../components/SectionTitle";

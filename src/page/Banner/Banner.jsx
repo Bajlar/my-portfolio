@@ -7,7 +7,10 @@ const Banner = () => {
   return (
     <>
       <BoxArea />
-      <section className="pb-12 px-4 bg-white md:px-28 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 justify-center items-center">
+      <section
+        data-aos="zoom-in"
+        className="pb-12 px-4 bg-white md:px-28 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 justify-center items-center"
+      >
         <LeftBanner />
         <RightBanner />
       </section>

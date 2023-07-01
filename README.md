@@ -17,6 +17,7 @@
 
 - @emailjs/browser
 - @smastrom/react-rating
+- @aos
 - @localforage
 - @lottie-react
 - @match-sorter
